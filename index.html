@@ -325,7 +325,7 @@ body.paused *{-webkit-animation-play-state:paused !important;animation-play-stat
 var STORE_URLS={Android:&quot;https://play.google.com/store/apps/details?id=com.duolingo&quot;,iOS:&quot;https://apps.apple.com/app/duolingo-language-lessons/id570060128&quot;};
 var IS_IOS=/iP(hone|od|ad)/.test(navigator.userAgent);
 var started=false,done=false,AC=null;
-var TIME=12000,left=TIME,running=false,tick=null;
+var TIME=25000,left=TIME,running=false,tick=null;
 
 function openStore(){var u=IS_IOS?STORE_URLS.iOS:STORE_URLS.Android;if(window.mraid&amp;&amp;mraid.open){mraid.open(u);}}
 
@@ -442,7 +442,7 @@ document.addEventListener(&quot;visibilitychange&quot;,function(){
 start();
 })();
 &lt;/script&gt;
-&lt;/body&gt;&lt;/html&gt;" sandbox="allow-scripts allow-popups allow-popups-to-escape-sandbox"></iframe></div><button class="replay" onclick="var f=document.getElementById('pf1');f.srcdoc=f.srcdoc;">&#8635;&nbsp;REPLAY</button></div><div class="meta"><div class="name">Streak Saver<span class="live">LIVE</span></div><div class="fmt hot">URGENCY · 1 TAP</div><div class="hook">&ldquo;Your 247-day streak expires tonight!&rdquo; — a 12s timer drains while one quick exercise saves the flame (247→248). Fail state converts too.</div><div class="thesis"><b>Tests:</b> loss-aversion — Duolingo&rsquo;s #1 retention mechanic used as the acquisition hook.</div><div class="file">Duolingo_StreakSaver_1T.html</div></div></div></div><h2>Product demos — the proven core</h2><div class="grid"><div class="card"><div class="phonewrap"><div class="phone"><iframe id="pf2" srcdoc="&lt;!DOCTYPE html&gt;&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no&quot;&gt;&lt;title&gt;Duolingo Playable — Quiz 1T&lt;/title&gt;
+&lt;/body&gt;&lt;/html&gt;" sandbox="allow-scripts allow-popups allow-popups-to-escape-sandbox"></iframe></div><button class="replay" onclick="var f=document.getElementById('pf1');f.srcdoc=f.srcdoc;">&#8635;&nbsp;REPLAY</button></div><div class="meta"><div class="name">Streak Saver<span class="live">LIVE</span></div><div class="fmt hot">URGENCY · 1 TAP</div><div class="hook">&ldquo;Your 247-day streak expires tonight!&rdquo; — a 25s timer drains while one quick exercise saves the flame (247→248). Fail state converts too.</div><div class="thesis"><b>Tests:</b> loss-aversion — Duolingo&rsquo;s #1 retention mechanic used as the acquisition hook.</div><div class="file">Duolingo_StreakSaver_1T.html</div></div></div></div><h2>Product demos — the proven core</h2><div class="grid"><div class="card"><div class="phonewrap"><div class="phone"><iframe id="pf2" srcdoc="&lt;!DOCTYPE html&gt;&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no&quot;&gt;&lt;title&gt;Duolingo Playable — Quiz 1T&lt;/title&gt;
 &lt;style&gt;
 html,body{margin:0;padding:0;width:100%;height:100%;overflow:hidden;background:#fff;-webkit-user-select:none;user-select:none;-webkit-tap-highlight-color:rgba(0,0,0,0);font-family:-apple-system,&quot;Segoe UI&quot;,Roboto,&quot;Helvetica Neue&quot;,Arial,sans-serif}
 #stage{position:absolute;top:0;left:0;right:0;bottom:0;display:-webkit-flex;display:flex;-webkit-flex-direction:column;flex-direction:column;-webkit-align-items:center;align-items:center;touch-action:manipulation}
